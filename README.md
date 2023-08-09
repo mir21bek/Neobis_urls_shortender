@@ -32,7 +32,7 @@ $ code name-app
 ###To start the frontend 
 $ npm start
 
-###To start the Django 
+###To start the Django.
 $ ./manage.py runserver
 
 
