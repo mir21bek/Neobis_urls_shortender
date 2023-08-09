@@ -1,38 +1,38 @@
 # Neobis_urls_shortender
-##This project is based on tasks from Neobis
-###This project solves the problem of url address shortening.
+## This project is based on tasks from Neobis
+### This project solves the problem of url address shortening.
 
 For this project, you need to download packages such as 
-###python-decouple
+### python-decouple
 $ pipenv install python-decouple
 
-###psycopg2-binary
+### psycopg2-binary
 $ pipenv install psycopg2-binary
 
-###django
+### django
 $ pipenv install django 
 
-###django_restframework
+### django_restframework
 $ pipenv install djangorestframework
 
-###Also CORS for security 
+### Also CORS for security 
 $ python -m pip install django-cors-headers
 
-###Node.js for frontend
+### Node.js for frontend
 https://nodejs.org/ru
 or 
 $ sudo apt install nodejs npm
 
-###To create a project in Node.js
+### To create a project in Node.js
 $ npx create-react-app name-app
 
-###To navigate to and launch an application on the corresponding application 
+### To navigate to and launch an application on the corresponding application 
 $ code name-app
 
-###To start the frontend 
+### To start the frontend 
 $ npm start
 
-###To start the Django.
+### To start the Django.
 $ ./manage.py runserver
 
 
