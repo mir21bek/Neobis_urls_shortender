@@ -5,10 +5,9 @@ from rest_framework.decorators import api_view
 import random
 
 from .models import UrlShortener
-from .serializers import UrlShortenerSerializers
 
 
-@api_view('POST')
+@api_view(["POST"])
 def make_short_url(request):
     data = request.data
     longer = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!*^$-_"
@@ -17,7 +16,7 @@ def make_short_url(request):
         long_url = data['long_url'],
         short_url=short_url
     )
-    long_url = data['short-url']
+    long_url = data['long_url']
     short_url = "http://localhost:8000/"+short_url
     return Response({'long_url': long_url, 'short_url': short_url})
 
